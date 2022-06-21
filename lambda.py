@@ -12,4 +12,14 @@ print(y(3,5,7))
 z = lambda a,b,c: a+b+c
 print(z(1,2,3))
 
-#
+
+#Define lambda function that multiples(double, trebble)
+def func(n):
+    return lambda a : a*n
+
+doublefunc = func(2)
+tripplefunc = func(3)
+
+print(doublefunc(4))
+print(tripplefunc(4))
+
